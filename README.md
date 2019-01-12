@@ -1,6 +1,6 @@
 # CLOUD-STORAGE-AND-ONLINE-BIN-PACKING
-## This project talks about cloud storage and how bin packing can be used in order to efficiently store data in servers. Each server which will be made has a cost to it, and using the least amount of bins will in a way reduce the costs for both the user and the company. Also Bin packing will provide an efficient way to access this data. Cloud computing is one such example of this, with the rapid rise of cloud computing in gaming, banking, networks, it has become imperative to find a way to store this data, and since the size of server is limited, we have to employ algorithms to store data. This paper will use three specific algorithms Harmonic Bin Packing, Variable Harmonic Bin Packing and K Binary Bin Packing to achieve this. All of these three algorithms, rely on making partitions of certain intervals and bins are then allocated to these partitions. We will compare the performance of each algorithm and plot the number of inputs with the number of bins.
-### Algorithms
+### This project talks about cloud storage and how bin packing can be used in order to efficiently store data in servers. Each server which will be made has a cost to it, and using the least amount of bins will in a way reduce the costs for both the user and the company. Also Bin packing will provide an efficient way to access this data. Cloud computing is one such example of this, with the rapid rise of cloud computing in gaming, banking, networks, it has become imperative to find a way to store this data, and since the size of server is limited, we have to employ algorithms to store data. This paper will use three specific algorithms Harmonic Bin Packing, Variable Harmonic Bin Packing and K Binary Bin Packing to achieve this. All of these three algorithms, rely on making partitions of certain intervals and bins are then allocated to these partitions. We will compare the performance of each algorithm and plot the number of inputs with the number of bins.
+## Algorithms
 We will use bin packing algorithms. Offline bin packing deals with pre-known data, and then using algorithms to put it in bins. But in this case offline bin packing is not at all possible, because we will not now what will come after. The data has to be put in the bins at that very instant without having prior knowledge about the data ahead of it. The online bin packing method is a variation of the classical bin packing problem.
 Online bin packing has the same constraints as classical bin packing with the minor difference being the way the elements are given.
 For solving this problem, we use three main algorithms – 1)Harmonic Algorithm
@@ -52,40 +52,40 @@ Partition-2 Bin1 0.11 0.11
 Partition-3 Bin1 0.17 0.23
 Partition-4 No Bins.
 Partition-5 Bin1- 0.63, Bin2-0.55, Bin3-0.95 Bin4-0.93 Bin5-0.74 Total Bins - 8
-### Analysis-
+## Analysis-
 
 Table- No of bins with items for different algorithms
 
-Items	Harmonic	Variable	K-Binary
+Items	Harmonic	    Variable	K-Binary
 			
-20	12	14	15
+20	12			14	15
 			
-40	27	28	28
+40	27			28	28
 			
-80	41	41	40
+80	41			41	40
 			
-100	53	55	53
+100	53			55	53
 			
-150	66	68	67
+150	66			68	67
 			
-200	99	100	98
+200	99			100	98
 			
 Now using these values, a table with average values is made-:
 			
 N(Bins)	Harmonic	Variable	K-Binary
 			
-20	5.017	4.0902	4.5151
+20	5.017		4.0902	      4.5151
 			
-40	9.5304	8.522	8.8152
+40	9.5304		8.522	      8.8152
 			
-80	20.756	19.027	20.02
+80	20.756		19.027	      20.02
 			
  
-100	26.381	23.951	25.4988
+100	26.381		23.951	     25.4988
 			
-150	40.028	36.9672	38.9824
+150	40.028		36.9672	     38.9824
 			
-200	52.8476	49.39	51.8582
+200	52.8476		49.39	     51.8582
 			
 
 Partition-3 – No Bins
