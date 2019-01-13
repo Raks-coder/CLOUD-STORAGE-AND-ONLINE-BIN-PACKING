@@ -56,7 +56,7 @@ Partition-5 Bin1- 0.63, Bin2-0.55, Bin3-0.95 Bin4-0.93 Bin5-0.74 Total Bins - 8
 
 Table- No of bins with items for different algorithms
 
-Items	Harmonic	    Variable	K-Binary
+Items	Harmonic   |    Variable	K-Binary
 			
 20	12			14	15
 			
@@ -72,7 +72,7 @@ Items	Harmonic	    Variable	K-Binary
 			
 Now using these values, a table with average values is made-:
 			
-N(Bins)	Harmonic	Variable	K-Binary
+N(Bins)	Harmonic   |	Variable	K-Binary
 			
 20	5.017		4.0902	      4.5151
 			
