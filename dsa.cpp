@@ -26,8 +26,7 @@ int main() {
  do
  {
  cout << "Menu\n";
- cout << "1.Display\n2.Harmonic Bin Packing(Lee and Lee)\n3.Variable
-Harmonic Bin Packing(Epstein)\n4.Kth Binary Packing\n5.Exit\n";
+ cout << "1.Display\n2.Harmonic Bin Packing(Lee and Lee)\n3.Variable Harmonic Bin Packing(Epstein)\n4.Kth Binary Packing\n5.Exit\n";
  cout << "Enter you option\n"; cin >> option;
  switch (option)
  {
