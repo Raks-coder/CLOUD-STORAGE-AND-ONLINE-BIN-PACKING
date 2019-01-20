@@ -89,3 +89,4 @@ N(Bins)	Harmonic   |	Variable	K-Binary
 			
 
 Partition-3 – No Bins
+#### This is the original work of Rakshit Malhotra and I welcome others to contribute to it
