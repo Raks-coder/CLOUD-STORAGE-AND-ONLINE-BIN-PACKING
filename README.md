@@ -3,8 +3,6 @@
 ![Mozilla Add-on](https://img.shields.io/amo/dw/C++?logo=C%2B%2B&style=for-the-badge)
 
 
-
-
 ### This project talks about cloud storage and how bin packing can be used in order to efficiently store data in servers. Each server which will be made has a cost to it, and using the least amount of bins will in a way reduce the costs for both the user and the company. Also Bin packing will provide an efficient way to access this data. Cloud computing is one such example of this, with the rapid rise of cloud computing in gaming, banking, networks, it has become imperative to find a way to store this data, and since the size of server is limited, we have to employ algorithms to store data. This paper will use three specific algorithms Harmonic Bin Packing, Variable Harmonic Bin Packing and K Binary Bin Packing to achieve this. All of these three algorithms, rely on making partitions of certain intervals and bins are then allocated to these partitions. We will compare the performance of each algorithm and plot the number of inputs with the number of bins.
 ## Algorithms
 We will use bin packing algorithms. Offline bin packing deals with pre-known data, and then using algorithms to put it in bins. But in this case offline bin packing is not at all possible, because we will not now what will come after. The data has to be put in the bins at that very instant without having prior knowledge about the data ahead of it. The online bin packing method is a variation of the classical bin packing problem.
